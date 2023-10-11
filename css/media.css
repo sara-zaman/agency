@@ -1,0 +1,778 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* common */
+  .common-orange-heading {
+    font-size: 1.6rem;
+  }
+  .common-section-heading {
+    font-size: 3.5rem;
+  }
+  .common-section-pera {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  /* ==== TOP NAV ===== */
+  .top-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-contact p {
+    padding-right: 0px;
+  }
+  .top-contact p a {
+    font-size: 13px;
+  }
+  .top-contact p span {
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  .top-social-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  .top-social-icons ul li a {
+    width: 25px;
+    height: 25px;
+    font-size: 1.2rem;
+  }
+  /* *** main nav *** */
+  .custom-logo {
+    font-size: 2.7rem;
+  }
+  .custom-menu ul li {
+    padding-bottom: 6px;
+  }
+  .contact-form {
+    padding: 0px 0;
+  }
+  .contact-form h1 {
+    font-size: 2.7rem;
+  }
+  .forms-each {
+    margin-bottom: 12px;
+  }
+  .contact-form p {
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+  .custom-form-control {
+    padding: 0.7rem 0.75rem;
+    font-size: 1.2rem;
+  }
+  .contact-btn {
+    margin-top: 19px;
+    font-size: 1.4rem;
+    padding: 8px 12px;
+  }
+  .menu-button {
+    margin-bottom: 15px;
+  }
+  /* ======== SLIDER SECTION ======== */
+  .custom-indicators {
+    bottom: -41%;
+  }
+  .custom-slider-items h4 {
+    font-size: 1.6rem;
+  }
+  .custom-slider-items h1 {
+    font-size: 3.5rem;
+    padding: 20px 7px;
+  }
+  .common-button {
+    font-size: 1.4rem;
+
+    padding: 6px 18px;
+  }
+  /* ====== MARKETING SECTION ===== */
+  .left-item-marketing {
+    margin-right: 0;
+  }
+
+  .marketing-section {
+    padding: 40px 0;
+  }
+  .marketing-details {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 25px;
+    align-items: center;
+    margin: 25px 20px;
+    line-height: 28px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+  .mar-logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .mar-img {
+  }
+  /* ======= NUMBER SECTION ===== */
+  .number-section {
+    padding: 25px 0;
+  }
+  .num-items {
+    padding: 10px 0;
+  }
+  .num-items h1 {
+    font-size: 5rem;
+  }
+  /* ====== SERVICE SECTION ====== */
+  .service-section {
+    padding: 40px 0;
+  }
+
+  .service-types {
+    padding-top: 20px;
+  }
+  .service-items {
+    margin: 15px 15px;
+    padding: 30px 20px;
+  }
+  /* ===== PORTFOLIO SECTION ===== */
+  .portfolio-section {
+    padding: 40px 0;
+  }
+  .custom-owl-carousel {
+    padding-top: 30px;
+  }
+  .owl-theme .owl-dots,
+  .owl-theme .owl-nav {
+    padding-top: 5px;
+  }
+  .port-content h1 a {
+    font-size: 2.4rem;
+  }
+  .port-horizontal-line {
+    width: 30px;
+  }
+  .h6 a {
+    font-size: 1.5rem;
+  }
+  /* ====== TEAM SECTION ===== */
+  .team-section {
+    padding: 40px 0;
+  }
+  .team-member-section {
+    padding-top: 20px;
+  }
+  .team-members {
+    margin: 5px 10px;
+    padding: 10px 0;
+  }
+  .team-content {
+    padding-top: 10px;
+  }
+  /* ======= REVIEW SECTION ======= */
+  .review-section {
+    padding: 56px 0px;
+  }
+  .custom-indicator-review {
+    bottom: -13%;
+  }
+  .custom-carousel-item-review {
+    padding: 0 0px;
+  }
+  .review-img {
+    /* width: 26%; */
+  }
+  .review h3 {
+    font-size: 1.5rem;
+
+    line-height: 24px;
+    padding: 20px 0;
+  }
+  /* ===== BLOG SECTION ===== */
+  .blog-section {
+    padding: 40px 0;
+  }
+  .blog-post-section {
+    padding-top: 20px;
+  }
+  .blog-text {
+    padding: 18px 12px 22px;
+  }
+  .service-p {
+    line-height: 25px;
+  }
+  /* ===== FOOTER SECTION ===== */
+  footer {
+    padding: 20px 0;
+  }
+  .footer-social-icon {
+    padding: 20px 0;
+  }
+  .copyright {
+    padding-top: 20px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* common */
+  .common-section {
+    padding: 0 30px;
+  }
+  .common-orange-heading {
+    font-size: 1.6rem;
+  }
+  .common-section-heading {
+    font-size: 3.5rem;
+  }
+  .common-section-pera {
+    line-height: 26px;
+    font-size: 16px;
+  }
+  /* =====TOP NAV ====== */
+  .top-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-contact p {
+    padding-right: 0px;
+  }
+  .top-social-icons {
+    display: flex;
+    justify-content: end;
+    padding-top: 5px;
+  }
+  /* *** main nav *** */
+  .custom-logo {
+    font-size: 3rem;
+  }
+  .custom-menu ul li {
+    padding-bottom: 10px;
+  }
+  .contact-form {
+    padding: 0px 0;
+  }
+  .contact-form h1 {
+    font-size: 3rem;
+  }
+  .forms-each {
+    margin-bottom: 12px;
+  }
+  .contact-form p {
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+  .custom-form-control {
+    padding: 0.7rem 0.75rem;
+    font-size: 1.2rem;
+  }
+  .contact-btn {
+    margin-top: 19px;
+    font-size: 1.4rem;
+    padding: 8px 12px;
+  }
+  .menu-button {
+    margin-bottom: 15px;
+  }
+  /* ======== SLIDER SECTION ======== */
+  .slider-section {
+    padding-bottom: 20px;
+  }
+  .custom-indicators {
+    bottom: -41%;
+  }
+  .custom-slider-items h4 {
+    font-size: 1.6rem;
+  }
+  .custom-slider-items h1 {
+    font-size: 4rem;
+    padding: 20px 7px;
+  }
+  .common-button {
+    font-size: 1.4rem;
+
+    padding: 6px 18px;
+  }
+  /* ====== MARKETING SECTION ===== */
+  .left-item-marketing {
+    margin-right: 0;
+  }
+  .marketing-title {
+    padding-top: 20px;
+  }
+  .marketing-section {
+    padding: 40px 0;
+  }
+  .marketing-details {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 25px;
+    align-items: center;
+    margin: 25px 45px;
+    line-height: 28px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+  .mar-logo {
+    margin-right: 0;
+    padding-right: 0px;
+    width: 25%;
+  }
+  .mar-img {
+    display: none;
+  }
+  /* ======= NUMBER SECTION ===== */
+  .number-section {
+    padding: 25px 0;
+  }
+  .num-items {
+    padding: 10px 0;
+  }
+  .num-items h1 {
+    font-size: 5.4rem;
+  }
+  /* ====== SERVICE SECTION ====== */
+  .service-section {
+    padding: 40px 0;
+  }
+  .service-types {
+    padding-top: 20px;
+  }
+  .service-items {
+    margin: 15px 50px;
+    padding: 39px 40px;
+  }
+  /* ==== PORTFOLIO SECTION ===== */
+  .portfolio-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+  }
+  .custom-owl-carousel {
+    padding-top: 40px;
+  }
+  .port-content h1 a {
+    font-size: 3rem;
+  }
+  .port-horizontal-line {
+    width: 30px;
+  }
+  .h6 a {
+    font-size: 1.8rem;
+  }
+  /* ====== TEAM SECTION ===== */
+  .team-section {
+    padding: 40px 0;
+  }
+  .team-member-section {
+    padding-top: 20px;
+  }
+  .team-members {
+    margin: 15px 50px;
+    padding: 10px 0;
+  }
+  .team-content {
+    padding-top: 10px;
+  }
+  /* ======= REVIEW SECTION ======= */
+  .review-section {
+    padding: 56px 0px;
+  }
+  .custom-indicator-review {
+    bottom: -13%;
+  }
+  .custom-carousel-item-review {
+    padding: 0 0px;
+  }
+  .review-img {
+    /* width: 100px; */
+  }
+  .review h3 {
+    font-size: 1.8rem;
+
+    line-height: 28px;
+    padding: 20px 0;
+  }
+  /* ===== BLOG SECTION ===== */
+  .blog-section {
+    padding: 40px 0;
+  }
+  .blog-item {
+    margin: 20px 40px;
+  }
+  .blog-post-section {
+    padding-top: 20px;
+  }
+  .blog-text {
+    padding: 20px 22px 27px;
+  }
+  .service-p {
+    line-height: 25px;
+  }
+  /* ===== FOOTER SECTION ===== */
+  footer {
+    padding: 20px 0;
+  }
+  .footer-social-icon {
+    padding: 20px 0;
+    justify-content: center;
+  }
+  .copyright {
+    padding-top: 20px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* =====TOP NAV ====== */
+  .top-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-contact p {
+    padding-right: 0px;
+  }
+  .top-social-icons {
+    display: flex;
+    justify-content: end;
+  }
+  /* *** main nav *** */
+  .custom-logo {
+    font-size: 4rem;
+  }
+  .custom-menu ul li {
+    padding-bottom: 10px;
+  }
+  .custom-menu ul li a {
+    font-size: 1.8rem;
+  }
+  .contact-form {
+    padding: 0px 0;
+  }
+  .contact-form h1 {
+    font-size: 4rem;
+  }
+  .forms-each {
+    margin-bottom: 12px;
+  }
+  .contact-form p {
+    padding-bottom: 12px;
+    font-size: 15px;
+  }
+  .custom-form-control {
+    padding: 0.7rem 0.75rem;
+    font-size: 1.2rem;
+  }
+  .contact-btn {
+    margin-top: 19px;
+    font-size: 1.4rem;
+    padding: 8px 12px;
+  }
+  .menu-button {
+    margin-bottom: 15px;
+  }
+  /* ===== SLIDER SECTION ===== */
+  .custom-slider-items h4 {
+    font-size: 1.6rem;
+  }
+  .custom-slider-items h1 {
+    font-size: 5rem;
+    padding: 13px 0;
+  }
+  .slider-change-btn {
+    width: 55px;
+    height: 55px;
+    font-size: 14px;
+  }
+  .custom-indicators {
+    bottom: -31%;
+  }
+  /* ====== MARKETING SECTION ===== */
+  .common-bold,
+  .blog-text h3 a {
+    font-family: Barlow-Bold;
+    font-size: 2rem;
+  }
+  .marketing-section {
+    padding: 60px 0;
+  }
+  .marketing-title {
+    padding-top: 20px;
+  }
+  .left-item-marketing {
+    display: grid;
+    margin-right: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mar-logo {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .mar-logo i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 30px;
+  }
+  .marketing-details {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 6px;
+    align-items: center;
+    margin: 0px 12px;
+    line-height: 26px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+  .mar-img {
+    display: none;
+  }
+
+  /* ===== NUMBER SECTION ===== */
+  .number-section {
+    padding: 10px 0;
+  }
+  /* ===== SERVICE SECTION ===== */
+  .service-section {
+    padding: 60px 0;
+  }
+  /* ===== PORTFOLIO SECTION ===== */
+  .portfolio-section {
+    padding: 60px 0 40px;
+  }
+  .owl-theme .owl-dots,
+  .owl-theme .owl-nav {
+    padding-top: 10px;
+  }
+  /* ====== TEAM SECTION ===== */
+  .team-section {
+    padding: 40px 0;
+  }
+  .team-member-section {
+    padding-top: 25px;
+  }
+  .team-content {
+    padding-top: 10px;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-right: 0.1rem;
+  }
+  .team-social-icon ul li a {
+    width: 22px;
+    height: 22px;
+    font-size: 1.2rem;
+  }
+  .team-content h5 {
+    font-size: 2rem;
+  }
+  .team-content p {
+    font-size: 1.4rem;
+  }
+  /* ======= REVIEW SECTION ======= */
+  .review-section {
+    padding: 45px 0px 56px;
+  }
+  .custom-indicator-review {
+    bottom: -13%;
+  }
+  .custom-carousel-item-review {
+    padding: 0 40px;
+  }
+  .review-img {
+  }
+  .review h3 {
+    font-size: 2rem;
+
+    line-height: 24px;
+    padding: 20px 0;
+  }
+  /* ====== blog section ===== */
+  .blog-section {
+    padding: 45px 0;
+  }
+  .blog-item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .blog-text {
+    padding: 0px 32px;
+  }
+  .service-p {
+    line-height: 24px;
+  }
+  /* ==== FOOTER SECTION ===== */
+  footer {
+    padding: 20px 0;
+  }
+  .footer-social-icon {
+    padding-top: 20px;
+    justify-content: center;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* ==== main nav ==== */
+  .custom-logo {
+    font-size: 3rem;
+  }
+  .custom-menu ul li a {
+    font-size: 1.6rem;
+    padding: 0 12px !important;
+  }
+  /* ===== SLIDER SECTION ==== */
+  .slider-section {
+    padding: 10px 0 50px;
+  }
+  .custom-slider-items h1 {
+    font-size: 5rem;
+    padding: 16px 0;
+  }
+  .custom-indicators {
+    bottom: -40%;
+  }
+  /* ====== MARKETING SECTION ===== */
+  .marketing-section {
+    padding: 40px 0;
+  }
+
+  .marketing-details {
+    margin: 20px 0;
+  }
+  /* ======= NUMBER SECTION ===== */
+  .number-section {
+    padding: 20px 0 0;
+  }
+  /* ====== SERVICE SECTION ===== */
+  .service-section {
+    padding: 60px 0;
+  }
+  .service-items {
+    margin: 16px 10px;
+    padding: 28px 22px;
+  }
+  .service-p {
+    line-height: 26px;
+  }
+  .portfolio-section {
+    padding: 60px 0 40px;
+  }
+  .team-section {
+    padding: 60px 0;
+  }
+  /* ======= REVIEW SECTION ======= */
+  .review-section {
+    padding: 56px 0px;
+  }
+  .custom-indicator-review {
+    bottom: -18%;
+  }
+  .custom-carousel-item-review {
+    padding: 0 40px;
+  }
+  .review-img {
+    /* width: 100px; */
+  }
+  .review h3 {
+    font-size: 1.8rem;
+
+    line-height: 28px;
+    padding: 20px 0;
+  }
+  /* ==== BLOG SECTION ===== */
+  .blog-section {
+    padding: 60px 0;
+  }
+  .blog-item {
+    margin: 20px 5px;
+  }
+  .blog-text {
+    padding: 28px 26px;
+  }
+  .common-bold,
+  .blog-text h3 a {
+    font-size: 2.2rem;
+    padding: 16px 0 8px;
+  }
+  .blog-post-section {
+    padding-top: 30px;
+  }
+  /* ===== FOOTER SECTION ===== */
+  footer {
+    padding: 20px 0;
+  }
+}
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* ===== SLIDER SECTION ==== */
+  .slider-section {
+    padding: 10px 0 30px;
+  }
+  .custom-slider-items h1 {
+    font-size: 5rem;
+    padding: 16px 0;
+  }
+  .custom-indicators {
+    bottom: -40%;
+  }
+  /* ===== MARKETING SECTION ===== */
+  .marketing-section {
+    padding: 60px 0;
+  }
+  /* ===== NUMBER SECTION ====== */
+  .number-section {
+    padding: 30px 10px;
+  }
+  .portfolio-section {
+    padding: 60px 0 40px;
+  }
+
+  /* ======= REVIEW SECTION ======= */
+  .review-section {
+    padding: 56px 0px;
+  }
+  .custom-indicator-review {
+    bottom: -13%;
+  }
+  .custom-carousel-item-review {
+    padding: 0 0px;
+  }
+  .review-img {
+    /* width: 100px; */
+  }
+
+  .review h3 {
+    font-size: 2rem;
+
+    line-height: 28px;
+    padding: 20px 0;
+  }
+  /* ==== FOOTER SECTION === */
+  footer {
+    padding: 20px 0;
+  }
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  /* ==== SLIDER SECTION === */
+  .custom-indicators {
+    bottom: -30%;
+  }
+  /* ======= REVIEW SECTION ======= */
+  .review-section {
+    padding: 56px 0px;
+  }
+  .custom-indicator-review {
+    bottom: -13%;
+  }
+  .custom-carousel-item-review {
+    padding: 0 0px;
+  }
+  .review-img {
+    /* width: 100px; */
+  }
+
+  .review h3 {
+    font-size: 2rem;
+
+    line-height: 28px;
+    padding: 20px 0;
+  }
+  /* ===== FOOTER SECTION ==== */
+  footer {
+    padding: 20px 0;
+  }
+}
